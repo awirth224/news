@@ -1,0 +1,6 @@
+.homepage-container {
+  background-color: rgb(13, 11, 32);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

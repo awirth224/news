@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import "../CSS/Homepage.css"
+import Card from "./Card";
 import "../.env.local"
 
 function Homepage() {
@@ -10,16 +11,25 @@ function Homepage() {
     .then(res => res.json())
     .then(data => {
       console.log('DATA:', data.results)
-      setArticles()
+      setArticles(data.results)
     })
 
   }, [])
   
-
+  
+  const cards = articles.map((article) => {
+    return (
+      <Card  
+      key={article.uri}
+      img={article.multimedia[0].url}
+      alt={article.multimedia[0].caption}
+      title={article.title}
+      />
+    )
+  })
   return (
-    
-    <div>
-
+    <div className="homepage-container">
+      {cards}
     </div>
   )
 
