@@ -1,1 +1,7 @@
-
+h1 {
+  align-items: center;
+  display: flex;
+  height: 6vh;
+  justify-content: center;
+  width: 100%;
+}
