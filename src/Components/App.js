@@ -1,15 +1,15 @@
 import '../CSS/App.css';
-import Header from './Header';
 import Homepage from './Homepage';
-import Details from './Details';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <header>
+        <h1>All the Times: Yesterday, Today, Tomorrow</h1>
+      </header>
       <Homepage />
     </div>
-  );
+  )
 }
 
 export default App;
