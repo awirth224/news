@@ -70,7 +70,9 @@ function Homepage() {
           {options}
         </select>
       </div>
-      {filtered.length ? filteredArticles : allArticles }
+      <div className="articles-container">
+        {filtered.length ? filteredArticles : allArticles }
+      </div>
     </div>
   )
 

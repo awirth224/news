@@ -5,3 +5,9 @@ h1 {
   justify-content: center;
   width: 100%;
 }
+
+@media (max-width: 868px) {
+  h1 {
+    font-size: large;
+  }  
+}

@@ -13,7 +13,7 @@ The purpose of this application is to give users access to today's headlines and
 1. Fork the Repo from the [Repository](https://github.com/awirth224/news)
 2. Clone the repo
    ```sh
-   git clone git@github.com:awirth224/citysearch.git
+   git clone git@github.com:awirth224/news.git
    ```
 3. Install NPM packages
    ```sh

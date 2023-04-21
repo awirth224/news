@@ -1,6 +1,39 @@
 .homepage-container {
   background-color: rgb(13, 11, 32);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.options-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 9vh;
   justify-content: center;
+
+}
+
+label {
+  color:white;
+}
+
+.dropdown {
+  background-color: gray;
+  color: rgb(249, 249, 249);
+  width: 20vw;
+}
+
+.articles-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: scroll;
+}
+
+@media (max-width: 868px) {
+  label {
+    font-size: small;
+  }
 }

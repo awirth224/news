@@ -8,7 +8,7 @@
   height: 42vh;
   justify-content: space-between;
   margin: 2% 2%;
-  width: 20vw;
+  width: 25vw;
 }
 
 .card-container > img {
@@ -30,3 +30,27 @@ button {
   color: rgb(0, 0, 76);
   margin-bottom: 3%;
 }
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+
+@media (max-width: 868px) {
+  .card-container {
+    height:40vh;
+    margin: 2% 0%;
+    width: 85vw;
+  } 
+
+  .title {
+    font-size: medium;
+    margin: 0% 3%;
+ 
+  }
+
+  .button {
+    height: 3vh;
+  }
+}
+
